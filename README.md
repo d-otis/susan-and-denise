@@ -2,6 +2,4 @@
 
 ## Todo
 
-- custom background
-- position video between harpies
-  - hide them when on mobile?
+- OpenGraph business + FB debug
