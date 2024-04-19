@@ -3,9 +3,19 @@ body {
   background-size: cover;
 }
 
-.container {
+main.container {
   background-image: url("../images/left_right_harpies__cropped.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 35%;
+}
+
+@media (max-width: 576px) {
+  main.container {
+    background-position-y: 97%;
+  }
+
+  #contact {
+    width: 60% !important;
+  }
 }
