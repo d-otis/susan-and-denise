@@ -10,6 +10,20 @@ main.container {
   background-position-y: 35%;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+#instagram {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+}
+
 @media (max-width: 576px) {
   main.container {
     background-position-y: 97%;
