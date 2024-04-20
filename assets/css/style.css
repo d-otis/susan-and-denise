@@ -10,21 +10,16 @@ main.container {
   background-position-y: 35%;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: orange;
-}
-
 @media (max-width: 576px) {
   main.container {
-    background-position-y: 97%;
+    background-position-y: 94%;
   }
 
   #contact {
     width: 60% !important;
+  }
+
+  #instagram {
+    width: 50% !important;
   }
 }
