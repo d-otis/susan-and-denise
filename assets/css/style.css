@@ -12,16 +12,11 @@ main.container {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 a:hover {
   color: orange;
-}
-
-#instagram {
-  position: absolute;
-  top: 0.5%;
-  right: 10%;
 }
 
 @media (max-width: 576px) {
